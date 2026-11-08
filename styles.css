@@ -100,7 +100,12 @@ nav a {
     color: #dddddd;
 }
 
-.contenidoPrincipal button.personajes {
+.botones{
+    padding: 15px;
+    padding-left: 0px;
+}
+.contenidoPrincipal a.personajes {
+    text-decoration: none;
     background-color: red;
     color: white;
     border: 1px solid red;
@@ -108,7 +113,8 @@ nav a {
     padding: 15px;
 }
 
-.contenidoPrincipal button.pueblo {
+.contenidoPrincipal a.pueblo {
+    text-decoration: none;
     border: 1px solid white;
     background-color: transparent;
     color: white;
