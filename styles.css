@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*Poner la img de fondo*/
@@ -178,4 +180,117 @@ nav a {
 
 .saga{
     color: red;
+}
+footer {
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    padding: 50px 0;
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin: 0 100px;
+}
+
+footer div article img {
+    width: 160px;
+    height: 80px;
+}
+
+footer div article.footer1 p {
+    width: 100%;
+}
+.redes-sociales{
+    margin-left: 0px;
+}
+.redes-sociales a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer2 p{
+    color: #5B6475;
+
+}
+.footer2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer2 ul li{
+    margin-top: 7px;
+    font-size: 1;
+}
+.footer2 ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer3 p{
+    color: #5B6475;
+
+}
+.footer3 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer3 ul li{
+    margin-top: 7px;
+    font-size: 1;
+    text-decoration: none;
+    color: white;
+}
+
+.footer4 :first-child{
+    color: #5B6475;
+}
+.footer4 form{
+    display: flex;
+}
+
+.footer4 form input{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: #5B6475;
+}
+.footer4 form button{
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 50px;
+}
+.suscripcion form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.suscripcion form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.suscripcion input {
+    background-color: transparent;
+    border: 1px solid #555;
+    padding: 10px;
+    color: white;
+}
+
+.suscripcion button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.suscripcion input::placeholder {
+    color: #999;
 }
