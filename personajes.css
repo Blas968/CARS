@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 15px;
+    gap: 25px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul li:first-child {
+    margin-right: auto;
+}
+
+.menu ul li img {
+    width: 80px;
+    height: 30px;
+}
+
+.menu ul li.login {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.menu ul li a {
+    position: relative;
+}
+
+.menu ul li a.active::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 2px;
+    background-color: red;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fila{
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.iniciox span{
+    color: #5B6475;
+}
+
+.subtitulo{
+    color: #5B6475;
+}
+
+.filtros button {
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 20px;
+    padding: 8px 14px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.buscador {
+    border: 1px solid #b8bdd6;
+    padding: 10px 16px;
+    width: 220px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
