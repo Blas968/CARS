@@ -79,7 +79,10 @@ h1 {
     width: 220px;
     font-size: 12px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
+}
 
+.prota{
+    width: 500px;
+    height: 500px;
 }
